@@ -1,0 +1,58 @@
+{
+    "name": "learn-react",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@loadable/component": "^5.15.0",
+        "@testing-library/jest-dom": "^5.11.9",
+        "@testing-library/react": "^11.2.5",
+        "@testing-library/user-event": "^12.8.3",
+        "babel-eslint": "^10.1.0",
+        "brotli-webpack-plugin": "^1.1.0",
+        "compression-webpack-plugin": "^8.0.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-lazyload": "^3.2.0",
+        "react-router-dom": "^5.2.0",
+        "uuid": "^8.3.2",
+        "web-vitals": "^1.1.1",
+        "webpack-bundle-analyzer": "^4.4.2"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.24.1",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.4.1",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "prettier": "^2.3.2"
+    }
+}

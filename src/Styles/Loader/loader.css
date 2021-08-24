@@ -1,0 +1,122 @@
+.page {
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    font-family: 'Caveat', cursive;
+}
+
+.white {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.top {
+    transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+    margin: auto;
+    position: relative;
+    animation-name: top-box;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.middle {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    background-color: #101010;
+    transform: rotate(45deg);
+    z-index: 100;
+    animation-name: middle-box;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.bottom {
+    background-color: #fff;
+    transform: rotate(45deg);
+    margin: auto;
+    position: relative;
+    z-index: 50;
+    animation-name: bottom-box;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.loader-container {
+    background: #101010;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* The animation code */
+@keyframes top-box {
+    0% {
+        top: 0px;
+    }
+    25% {
+        transform: scale(1) rotate(45deg);
+    }
+    50% {
+        top: 128px;
+        transform: scale(2) rotate(225deg);
+    }
+    75% {
+        transform: scale(1) rotate(225deg);
+    }
+    100% {
+        top: 0px;
+        transform: rotate(225deg);
+    }
+}
+
+@keyframes bottom-box {
+    0% {
+        top: 0px;
+    }
+    25% {
+        transform: scale(1) rotate(45deg);
+    }
+    50% {
+        top: -128px;
+        transform: scale(2) rotate(225deg);
+    }
+    75% {
+        transform: scale(1) rotate(225deg);
+    }
+    100% {
+        top: 0px;
+        transform: rotate(225deg);
+    }
+}
+
+@keyframes middle-box {
+    0% {
+        transform: scale(0) rotate(45deg);
+    }
+    30% {
+        transform: scale(0) rotate(100deg);
+    }
+    50% {
+        transform: scale(3) rotate(225deg);
+    }
+    90% {
+        transform: scale(0) rotate(225deg);
+    }
+    100% {
+        transform: scale(0) rotate(225deg);
+    }
+}
