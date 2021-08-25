@@ -2,7 +2,7 @@ import React from 'react';
 import { Service } from 'Components';
 import { Helmetdata } from 'Elements';
 
-function Servicespage() {
+function Loginpages() {
     return (
         <>
             <Helmetdata
@@ -15,4 +15,4 @@ function Servicespage() {
     );
 }
 
-export default Servicespage;
+export default Loginpages;

@@ -32,7 +32,7 @@
 .navigation {
     display: flex;
 
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav {
@@ -48,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-    padding: 0 2.8rem;
+    padding: 0 1.5vw;
     cursor: pointer;
     text-decoration: none;
     width: 51px;
@@ -69,4 +69,22 @@ a:hover:not(.active) {
 nav .active {
     color: #111;
     font-weight: 600;
+}
+
+.loginbtn {
+    border-radius: 50px;
+    text-align: center;
+    margin: 9px 0;
+    visibility: visible;
+    padding: 0.5vw 1.125vw;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3vw;
+    line-height: 53px;
+    /* identical to box height, or 222% */
+
+    letter-spacing: 0.5px;
+    background-color: #add7cc;
+    color: #828282;
 }

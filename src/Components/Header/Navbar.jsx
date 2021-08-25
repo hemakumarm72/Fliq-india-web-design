@@ -7,10 +7,20 @@ function Navbar() {
         <div className="navigation">
             <div className="logo" />
             <Linkdiv />
+            <Loginbutton />
         </div>
     );
 }
 
+const Loginbutton = () => (
+    <>
+        <div className="button-container">
+            <button className="loginbtn" type="button">
+                Log in /Sign up
+            </button>
+        </div>
+    </>
+);
 const Linkdiv = () => (
     <nav>
         <ul>

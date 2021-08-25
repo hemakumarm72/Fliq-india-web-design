@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmetdata } from 'Elements';
+import Slideshow from 'Components/HomepageCom/SliderShow/Slideshow';
 
 function Homepages() {
     return (
@@ -11,7 +12,7 @@ platform"
                 description="Personalised platforms for Photography, Videography with
 Graphics. One of the leading platforms in the creative domain."
             />
-            <h1>homepages</h1>
+            <Slideshow />
         </>
     );
 }
