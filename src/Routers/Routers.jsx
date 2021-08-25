@@ -8,8 +8,8 @@ import Header from 'Components/Header/Header';
 const Homepages = lazy(() =>
     import('pages').then((module) => module.Homepages)
 );
-const Loginpages = lazy(() =>
-    import('pages').then((module) => module.Loginpages)
+const Logopages = lazy(() =>
+    import('pages').then((module) => module.Logopages)
 );
 
 function Routers() {
@@ -20,7 +20,7 @@ function Routers() {
                 <Switch>
                     <Route path="/" exact component={Homepages} />
 
-                    <Route path="/services" component={Loginpages} />
+                    <Route path="/services" component={Logopages} />
                 </Switch>
             </Suspense>
         </Routes>

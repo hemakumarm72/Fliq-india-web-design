@@ -1,4 +1,4 @@
-.contentsection p span {
+.contentsection article p span {
     display: block;
 }
 
@@ -33,7 +33,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px red solid;
 }
 
 .startdesignbtn {

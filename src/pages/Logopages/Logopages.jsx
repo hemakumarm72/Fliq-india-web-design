@@ -1,8 +1,8 @@
 import React from 'react';
-import { Service } from 'Components';
+import { LogoDesign } from 'Components';
 import { Helmetdata } from 'Elements';
 
-function Loginpages() {
+function Logopages() {
     return (
         <>
             <Helmetdata
@@ -10,9 +10,9 @@ function Loginpages() {
                 link={window.location.href}
                 description="Make your own brand identity through us. Start your design now."
             />
-            <Service />
+            <LogoDesign />
         </>
     );
 }
 
-export default Loginpages;
+export default Logopages;

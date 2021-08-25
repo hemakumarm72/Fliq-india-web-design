@@ -4,6 +4,6 @@ import { lazy } from '@loadable/component';
 // export { default as Service } from 'Components/Service/Service';
 
 const Header = lazy(() => import('Components/Header/Header'));
-const Service = lazy(() => import('Components/Service/Service'));
+const LogoDesign = lazy(() => import('Components/LogopageCom/LogoDesign'));
 
-export { Header, Service };
+export { Header, LogoDesign };

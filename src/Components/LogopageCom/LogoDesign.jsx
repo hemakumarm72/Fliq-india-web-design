@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'Components/HomepageCom/Container/Container';
 import 'Styles/Logopages/Logopages.css';
 
-function Service() {
+function LogoDesign() {
     return (
         <div>
             <Container>
@@ -51,4 +51,4 @@ const Sectionquery = () => (
         </div>
     </div>
 );
-export default Service;
+export default LogoDesign;
