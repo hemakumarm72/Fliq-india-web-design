@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from 'Components/HomepageCom/Header/Navbar';
+import Navbar from 'Components/Header/Navbar';
 import { Container } from 'Components/HomepageCom/Container/Container';
-import 'Styles/Homepages/Header.css';
+import 'Styles/Header/Header.css';
 
 function Header() {
     return (

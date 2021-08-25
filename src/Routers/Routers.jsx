@@ -2,11 +2,15 @@ import React, { Suspense } from 'react';
 import { BrowserRouter as Routes, Switch, Route } from 'react-router-dom';
 import { lazy } from '@loadable/component';
 import { Loader } from 'Elements';
-import Header from 'Components/HomepageCom/Header/Header';
+import Header from 'Components/Header/Header';
 // import { Homepages } from 'pages';
 
-const Homepages = lazy(() => import('pages/Home/Homepages'));
-const Servicepage = lazy(() => import('pages/Service/Servicepage'));
+const Homepages = lazy(() =>
+    import('pages').then((module) => module.Homepages)
+);
+const Servicespage = lazy(() =>
+    import('pages').then((module) => module.Servicespage)
+);
 
 function Routers() {
     return (
@@ -16,7 +20,7 @@ function Routers() {
                 <Switch>
                     <Route path="/" exact component={Homepages} />
 
-                    <Route path="/services" component={Servicepage} />
+                    <Route path="/services" component={Servicespage} />
                 </Switch>
             </Suspense>
         </Routes>

@@ -1,15 +1,17 @@
 import React from 'react';
-
-// import { Header } from 'Components';
+import { Helmetdata } from 'Elements';
 
 function Homepages() {
     return (
         <>
-            <h1>homepages</h1>
-            <img
-                src="https://drive.google.com/uc?export=view&id=1jaksyLRlytnjBPdyYKXCl8_f1IUlD4if"
-                alt=""
+            <Helmetdata
+                title="FliqaIndia: Photography, Videography & Graphic Design related creative
+platform"
+                link={window.location.href}
+                description="Personalised platforms for Photography, Videography with
+Graphics. One of the leading platforms in the creative domain."
             />
+            <h1>homepages</h1>
         </>
     );
 }
