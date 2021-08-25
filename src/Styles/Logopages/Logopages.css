@@ -54,7 +54,7 @@
     font-size: 20px;
     line-height: 23px;
     /* or 115% */
-
+    cursor: pointer;
     text-align: center;
     margin: 0 4.4375rem;
     color: #ffffff;

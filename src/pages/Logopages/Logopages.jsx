@@ -9,6 +9,7 @@ function Logopages() {
                 title="Logo Design"
                 link={window.location.href}
                 description="Make your own brand identity through us. Start your design now."
+                pagesname="Logo Pages"
             />
             <LogoDesign />
         </>

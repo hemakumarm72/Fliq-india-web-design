@@ -76,7 +76,7 @@ nav .active {
 .loginbtn {
     border-radius: 50px;
     text-align: center;
-
+    cursor: pointer;
     visibility: visible;
     padding: 0.2vw 1.125vw;
     font-family: 'Poppins', sans-serif;
