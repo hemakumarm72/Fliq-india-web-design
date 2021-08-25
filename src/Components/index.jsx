@@ -5,5 +5,8 @@ import { lazy } from '@loadable/component';
 
 const Header = lazy(() => import('Components/Header/Header'));
 const LogoDesign = lazy(() => import('Components/LogopageCom/LogoDesign'));
-
-export { Header, LogoDesign };
+const About = lazy(() => import('Components/HomepageCom/About/About'));
+const Slideshow = lazy(() =>
+    import('Components/HomepageCom/SliderShow/Slideshow')
+);
+export { Header, LogoDesign, About, Slideshow };

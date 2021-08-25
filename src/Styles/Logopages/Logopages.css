@@ -43,15 +43,13 @@
     background: rgba(249, 182, 104, 0.81);
 }
 .btn {
-    width: 206px;
-    height: 55px;
     border-radius: 40px;
     padding: 1rem 1.625rem;
 
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.25vw;
     line-height: 23px;
     /* or 115% */
     cursor: pointer;
