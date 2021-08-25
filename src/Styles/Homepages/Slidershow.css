@@ -1,0 +1,22 @@
+.slider {
+    margin-top: 6.4375rem;
+}
+
+.rec.rec-carousel-wrapper:focus,
+.rec.rec-carousel-wrapper .rec-carousel:focus,
+.rec.rec-carousel-wrapper .rec-slider-container:focus,
+.rec.rec-carousel-wrapper .rec-slider-container .rec-slider:focus,
+.rec.rec-carousel-wrapper .rec-slider-container .rec-slider div:focus {
+    outline: none;
+}
+
+.rec.rec-carousel-wrapper .rec-carousel button {
+    background: transparent;
+    color: #000000;
+    font-size: 1vw;
+    box-shadow: none;
+}
+
+.rec-arrow {
+    background: rgba(0, 0, 0, 0.1);
+}

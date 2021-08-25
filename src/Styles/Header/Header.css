@@ -78,12 +78,12 @@ nav .active {
     text-align: center;
     cursor: pointer;
     visibility: visible;
-    padding: 0.2vw 1.125vw;
+    padding: 0 1.125vw;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.3vw;
-    line-height: 53px;
+    line-height: 3.5vw;
     /* identical to box height, or 222% */
     box-shadow: 0 3px 10px #828282;
     letter-spacing: 0.5px;

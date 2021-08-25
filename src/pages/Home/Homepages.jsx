@@ -11,7 +11,7 @@ platform"
                 link={window.location.href}
                 description="Personalised platforms for Photography, Videography with
 Graphics. One of the leading platforms in the creative domain."
-                pagesname="Home Pages"
+                pagesname="Fliqa India | Home Pages"
             />
             <Slideshow />
         </>

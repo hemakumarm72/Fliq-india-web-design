@@ -55,7 +55,8 @@
         "eslint-plugin-react": "^7.24.0",
         "eslint-plugin-react-hooks": "^4.2.0",
         "prettier": "^2.3.2",
-        "react-helmet": "^6.1.0",
-        "react-helmet-async": "^1.1.0"
+        "react-elastic-carousel": "^0.11.5",
+        "react-helmet-async": "^1.1.0",
+        "styled-components": "^5.3.1"
     }
 }
