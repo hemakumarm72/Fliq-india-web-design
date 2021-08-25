@@ -63,7 +63,7 @@ a:hover:not(.active) {
     color: #111;
 }
 
-nav .active {
+nav.active {
     color: #111;
     font-weight: 600;
 }
