@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 * {
     padding: 0;
     border: 0;
@@ -70,10 +68,14 @@ nav .active {
     font-weight: 600;
 }
 
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .loginbtn {
     border-radius: 50px;
     text-align: center;
-    margin: 13px 0;
 
     visibility: visible;
     padding: 0.2vw 1.125vw;

@@ -1,0 +1,63 @@
+.contentsection p span {
+    display: block;
+}
+
+.contentsection {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 156.4%;
+    /* or 56px */
+    color: #000000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 6.6875rem;
+    padding-bottom: 5rem;
+}
+
+.contentsection h1 {
+    margin: 1.5rem 0;
+}
+
+.sectionquery {
+    position: relative;
+    width: 100%;
+    background: #faeacc;
+    border-radius: 0px;
+    height: 118px;
+    display: flex;
+    justify-content: center;
+}
+
+.button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px red solid;
+}
+
+.startdesignbtn {
+    background: #add7cc;
+}
+
+.getquotebtn {
+    background: rgba(249, 182, 104, 0.81);
+}
+.btn {
+    width: 206px;
+    height: 55px;
+    border-radius: 40px;
+    padding: 1rem 1.625rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* or 115% */
+
+    text-align: center;
+    margin: 0 4.4375rem;
+    color: #ffffff;
+    top: 50%;
+}
