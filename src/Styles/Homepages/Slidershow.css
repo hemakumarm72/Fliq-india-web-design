@@ -20,3 +20,31 @@
 .rec-arrow {
     background: rgba(0, 0, 0, 0.1);
 }
+
+.iconname {
+    padding: 10px 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    color: #333333;
+}
+
+#iconset {
+    cursor: pointer;
+}
+
+.iconset {
+    transition: all 1s ease-in-out;
+}
+
+.iconsetactive {
+    transition: 0.3s ease-in-out;
+    margin-top: 150px;
+}

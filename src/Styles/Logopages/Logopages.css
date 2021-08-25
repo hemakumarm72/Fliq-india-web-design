@@ -5,7 +5,7 @@
 .contentsection {
     font-style: normal;
     font-weight: 500;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     line-height: 156.4%;
     /* or 56px */
     color: #000000;
@@ -15,7 +15,7 @@
     padding-bottom: 5rem;
 }
 
-.contentsection h1 {
+.contentsection article h1 {
     margin: 1.5rem 0;
 }
 
