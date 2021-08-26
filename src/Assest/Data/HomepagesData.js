@@ -63,12 +63,4 @@ export const Homepageicon = [
         image: Graphicdesign,
         name: 'Graphic design',
     },
-    {
-        image: Graphicdesign,
-        name: 'Graphic design',
-    },
-    {
-        image: Graphicdesign,
-        name: 'Graphic design',
-    },
 ];
