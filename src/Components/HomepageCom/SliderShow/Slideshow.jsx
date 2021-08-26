@@ -3,7 +3,9 @@ import { Container } from 'Components/HomepageCom/Container/Container';
 import { Homepageicon } from 'Assest/Data/HomepagesData';
 import 'Styles/Homepages/Slidershow.css';
 import Carousel from 'react-elastic-carousel';
+// import { lazy } from '@loadable/component';
 
+// const Carousel = lazy(() => import('react-elastic-carousel'));
 function Slideshow() {
     return (
         <Container>
@@ -29,6 +31,7 @@ function Slidershowdiv() {
                 {Homepageicon.map((item, i) => {
                     const className =
                         currentItem === i ? 'iconsetactive' : 'inactive';
+
                     return (
                         <div
                             className={`${className} iconset`}
