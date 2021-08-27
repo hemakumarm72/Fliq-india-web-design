@@ -1,15 +1,15 @@
 import React from 'react';
-import { Container } from 'Components/HomepageCom/Container/Container';
+import { Container } from 'Components';
 import 'Styles/Logopages/Logopages.css';
 
 function LogoDesign() {
     return (
-        <div>
+        <>
             <Container>
                 <Contentsection />
             </Container>
             <Sectionquery />
-        </div>
+        </>
     );
 }
 

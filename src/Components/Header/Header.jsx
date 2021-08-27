@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from 'Components/Header/Navbar';
-import { Container } from 'Components/HomepageCom/Container/Container';
+import { Container } from 'Components';
 import 'Styles/Header/Header.css';
 
 function Header() {

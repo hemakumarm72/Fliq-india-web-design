@@ -14,4 +14,5 @@ export { default as Header } from 'Components/Header/Header';
 export { default as LogoDesign } from 'Components/LogopageCom/LogoDesign';
 export { default as About } from 'Components/HomepageCom/About/About';
 export { default as Slideshow } from 'Components/HomepageCom/SliderShow/Slideshow';
+export { default as Container } from 'Components/HomepageCom/Container/Container';
 // export { Header, LogoDesign, About, Slideshow };

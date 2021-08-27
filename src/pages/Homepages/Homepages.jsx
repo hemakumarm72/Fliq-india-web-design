@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmetdata } from 'Elements';
-import { Slideshow, About } from 'Components';
+import { Slideshow, About, Container } from 'Components';
+import 'Styles/Homepages/Homepage.css';
 
 function Homepages() {
     return (
@@ -13,8 +14,10 @@ platform"
 Graphics. One of the leading platforms in the creative domain."
                 pagesname="Fliqa India | Home Pages"
             />
-            <Slideshow />
-            <About />
+            <Container>
+                <Slideshow />
+                <About />
+            </Container>
         </>
     );
 }

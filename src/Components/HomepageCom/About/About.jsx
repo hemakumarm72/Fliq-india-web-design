@@ -1,15 +1,13 @@
 import React from 'react';
-import { Container } from 'Components/HomepageCom/Container/Container';
+
 import 'Styles/Homepages/About.css';
 
 function About() {
     return (
         <>
-            <Container>
-                <div className="Aboutsection">
-                    <Aboutcontent />
-                </div>
-            </Container>
+            <div className="Aboutsection">
+                <Aboutcontent />
+            </div>
         </>
     );
 }
@@ -17,46 +15,27 @@ function About() {
 const Aboutcontent = () => (
     <div className="Aboutcontent">
         <article>
-            <h1>About</h1>
+            <h1 className="headingtitle">About</h1>
             <p className="titlemain">
-                {' '}
-                <span> Fliqaindia </span> for everyone
+                <span style={{ color: '#5684c8' }}> Fliqaindia </span> for
+                everyone
             </p>
             <p className="contentpara">
-                <span className="linebreak">
-                    {' '}
-                    With this belief, we at Fliqaindia started our journey 5
-                    years ago with{' '}
-                </span>{' '}
-                <span className="linebreak">
-                    {' '}
-                    the belief that everyone has the right to quality
-                    photography to help{' '}
-                </span>{' '}
-                <span className="linebreak">
-                    them better capture and conserve their special moments. We
-                    have{' '}
-                </span>{' '}
-                <span className="linebreak">
-                    {' '}
-                    been appreciated and recommended by Start Up India, StartUp{' '}
-                </span>{' '}
-                <span className="linebreak">
-                    {' '}
-                    Bengal, Imagesbazaar and Digital India for our novel
-                    initiative. We{' '}
-                </span>{' '}
-                <span className="linebreak">
-                    {' '}
-                    have partnered with Canvera to give you the best service
-                    possible. We{' '}
-                </span>{' '}
-                <span className="linebreak">
-                    {' '}
-                    are also trusted by Justdial, WedMEGood, Shaadisaga,
-                    weddingwire{' '}
-                </span>{' '}
-                and so many well known event organisers.
+                With this belief, we at Fliqaindia started our journey 5 years
+                ago with <br />
+                the belief that everyone has the right to quality photography to
+                help <br />
+                them better capture and conserve their special moments. We have{' '}
+                <br />
+                been appreciated and recommended by Start Up India, StartUp{' '}
+                <br />
+                Bengal, Imagesbazaar and Digital India for our novel initiative.
+                We <br />
+                have partnered with Canvera to give you the best service
+                possible. We <br />
+                are also trusted by Justdial, WedMEGood, Shaadisaga, weddingwire{' '}
+                <br />
+                and so many well known event organisers.{' '}
             </p>
         </article>
     </div>

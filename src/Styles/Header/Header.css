@@ -1,20 +1,6 @@
-* {
-    padding: 0;
-    border: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 .header {
     width: 100%;
-    height: 88px;
+    height: 5.5rem;
 
     background: #faeacc;
     border-radius: 0px;
@@ -83,7 +69,7 @@ nav .active {
     font-style: normal;
     font-weight: 500;
     font-size: 1.3vw;
-    line-height: 3.5vw;
+    line-height: 3.5rem;
     /* identical to box height, or 222% */
     box-shadow: 0 3px 10px #828282;
     letter-spacing: 0.5px;

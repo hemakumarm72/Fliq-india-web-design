@@ -1,17 +1,11 @@
 import React from 'react';
-import { Container } from 'Components/HomepageCom/Container/Container';
+
 import { Homepageicon } from 'Assest/Data/HomepagesData';
 import 'Styles/Homepages/Slidershow.css';
 import Carousel from 'react-elastic-carousel';
-// import { lazy } from '@loadable/component';
 
-// const Carousel = lazy(() => import('react-elastic-carousel'));
 function Slideshow() {
-    return (
-        <Container>
-            <Slidershowdiv />
-        </Container>
-    );
+    return <Slidershowdiv />;
 }
 
 function Slidershowdiv() {
