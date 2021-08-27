@@ -20,7 +20,7 @@ function Routers() {
                 <Switch>
                     <Route path="/" exact component={Homepages} />
 
-                    <Route path="/services" component={Logopages} />
+                    <Route path="/services" exact component={Logopages} />
                 </Switch>
             </Suspense>
         </Routes>
