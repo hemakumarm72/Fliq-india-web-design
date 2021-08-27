@@ -4,12 +4,13 @@ import { lazy } from '@loadable/component';
 import { Loader } from 'Elements';
 import Header from 'Components/Header/Header';
 // import { Homepages } from 'pages';
+import pMinDelay from 'p-min-delay';
 
 const Homepages = lazy(() =>
-    import('pages').then((module) => module.Homepages)
+    pMinDelay(import('pages'), 500).then((module) => module.Homepages)
 );
 const Logopages = lazy(() =>
-    import('pages').then((module) => module.Logopages)
+    pMinDelay(import('pages'), 500).then((module) => module.Logopages)
 );
 
 function Routers() {

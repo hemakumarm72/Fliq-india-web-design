@@ -5,11 +5,7 @@ import 'Styles/Loader/loader.css';
 const LoadingPage = () => {
     return (
         <div className="background">
-            <div id="loader">
-                <div className="diamond" />
-                <div className="diamond" />
-                <div className="diamond" />
-            </div>
+            <div className="planet" />;
         </div>
     );
 };
