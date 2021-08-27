@@ -4,11 +4,11 @@ import 'Styles/Loader/loader.css';
 
 const LoadingPage = () => {
     return (
-        <div className="page">
-            <div className="loader-container">
-                <div className="top box white" />
-                <div className="middle box" />
-                <div className="bottom box white" />
+        <div className="background">
+            <div id="loader">
+                <div className="diamond" />
+                <div className="diamond" />
+                <div className="diamond" />
             </div>
         </div>
     );

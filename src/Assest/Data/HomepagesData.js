@@ -9,32 +9,46 @@ import Graphicdesign from 'Assest/Image/Graphicdesign.png';
 export const Linkdata = [
     {
         link: '/',
-        name: 'HOME',
+        name: 'home',
+        class: 'home',
+        loginbtnshow: 'hidden',
     },
 
     {
         link: '/about',
-        name: 'ABOUT US',
+        name: 'about us',
+        class: 'about',
+        loginbtnshow: 'hidden',
     },
     {
         link: '/services',
-        name: 'SERVICES',
+        name: 'services',
+        class: 'services',
+        loginbtnshow: '',
     },
     {
         link: '/freelancers',
-        name: 'FREELANCERS',
+        name: 'freelancers',
+        class: 'freelancers',
+        loginbtnshow: 'hidden',
     },
     {
         link: '/blog',
-        name: 'BLOG',
+        name: 'blog',
+        class: 'blog',
+        loginbtnshow: 'hidden',
     },
     {
         link: '/tutorial',
-        name: 'TUTORIAL',
+        name: 'tutorial',
+        class: 'tutorial',
+        loginbtnshow: 'hidden',
     },
     {
         link: '/contact',
-        name: 'CONTACT US',
+        name: 'contact us',
+        class: 'contact',
+        loginbtnshow: 'hidden',
     },
 ];
 

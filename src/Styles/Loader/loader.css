@@ -1,122 +1,71 @@
-.page {
-    background: #101010;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: fixed !important;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    font-family: 'Caveat', cursive;
+.background {
+    background: white;
 }
 
-.white {
-    width: 80px;
-    height: 80px;
-    background-color: #fff;
-    border-radius: 10px;
-}
-
-.top {
-    transform: rotate(45deg); /* Equal to rotateZ(45deg) */
-    margin: auto;
-    position: relative;
-    animation-name: top-box;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-.middle {
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
     width: 50px;
-    height: 50px;
-    margin: auto;
-    background-color: #101010;
-    transform: rotate(45deg);
-    z-index: 100;
-    animation-name: middle-box;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-.bottom {
-    background-color: #fff;
-    transform: rotate(45deg);
-    margin: auto;
-    position: relative;
-    z-index: 50;
-    animation-name: bottom-box;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-.loader-container {
-    background: #101010;
-    width: 400px;
-    height: 400px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#loader .diamond {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    background: rgb(253, 182, 27);
+    -webkit-transform: translateY(0) rotate(45deg) scale(0);
+    transform: translateY(0) rotate(45deg) scale(0);
+    -webkit-animation: diamonds 1500ms linear infinite;
+    animation: diamonds 1500ms linear infinite;
+}
+#loader .diamond:nth-child(1) {
+    -webkit-animation-delay: -1000ms;
+    animation-delay: -1000ms;
+}
+#loader .diamond:nth-child(2) {
+    -webkit-animation-delay: -2000ms;
+    animation-delay: -2000ms;
+}
+#loader .diamond:nth-child(3) {
+    -webkit-animation-delay: -3000ms;
+    animation-delay: -3000ms;
+}
+#loader .diamond:nth-child(4) {
+    -webkit-animation-delay: -4000ms;
+    animation-delay: -4000ms;
 }
 
-/* The animation code */
-@keyframes top-box {
-    0% {
-        top: 0px;
-    }
-    25% {
-        transform: scale(1) rotate(45deg);
-    }
+@-webkit-keyframes diamonds {
     50% {
-        top: 128px;
-        transform: scale(2) rotate(225deg);
-    }
-    75% {
-        transform: scale(1) rotate(225deg);
+        -webkit-transform: translateY(-50px) rotate(45deg) scale(1);
+        transform: translateY(-50px) rotate(45deg) scale(1);
     }
     100% {
-        top: 0px;
-        transform: rotate(225deg);
+        -webkit-transform: translateY(-100px) rotate(45deg) scale(0);
+        transform: translateY(-100px) rotate(45deg) scale(0);
     }
 }
 
-@keyframes bottom-box {
-    0% {
-        top: 0px;
-    }
-    25% {
-        transform: scale(1) rotate(45deg);
-    }
+@keyframes diamonds {
     50% {
-        top: -128px;
-        transform: scale(2) rotate(225deg);
-    }
-    75% {
-        transform: scale(1) rotate(225deg);
+        -webkit-transform: translateY(-50px) rotate(45deg) scale(1);
+        transform: translateY(-50px) rotate(45deg) scale(1);
     }
     100% {
-        top: 0px;
-        transform: rotate(225deg);
-    }
-}
-
-@keyframes middle-box {
-    0% {
-        transform: scale(0) rotate(45deg);
-    }
-    30% {
-        transform: scale(0) rotate(100deg);
-    }
-    50% {
-        transform: scale(3) rotate(225deg);
-    }
-    90% {
-        transform: scale(0) rotate(225deg);
-    }
-    100% {
-        transform: scale(0) rotate(225deg);
+        -webkit-transform: translateY(-100px) rotate(45deg) scale(0);
+        transform: translateY(-100px) rotate(45deg) scale(0);
     }
 }

@@ -7,16 +7,22 @@ function Navbar() {
         <div className="navigation">
             <div className="logo" />
             <Linkdiv />
+
             <Loginbutton />
         </div>
     );
 }
 
-const Loginbutton = () => (
+const Loginbutton = ({ values }) => (
     <>
         <div className="button-container">
-            <button className="loginbtn" type="button">
-                Log in /Sign up
+            <button
+                className="loginbtn"
+                style={{ visibility: values }}
+                id="loginsigup"
+                type="button"
+            >
+                Log in/Sign up
             </button>
         </div>
     </>
@@ -26,7 +32,12 @@ const Linkdiv = () => (
         <ul>
             {Linkdata.map((d) => (
                 <li key={d.name}>
-                    <NavLink activeClassName="active" exact to={d.link}>
+                    <NavLink
+                        activeClassName="active"
+                        id={d.class}
+                        exact
+                        to={d.link}
+                    >
                         {d.name}
                     </NavLink>
                 </li>
