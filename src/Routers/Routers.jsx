@@ -7,10 +7,10 @@ import Header from 'Components/Header/Header';
 import pMinDelay from 'p-min-delay';
 
 const Homepages = lazy(() =>
-    pMinDelay(import('pages'), 500).then((module) => module.Homepages)
+    pMinDelay(import('pages'), 1000).then((module) => module.Homepages)
 );
 const Logopages = lazy(() =>
-    pMinDelay(import('pages'), 500).then((module) => module.Logopages)
+    pMinDelay(import('pages'), 1000).then((module) => module.Logopages)
 );
 
 function Routers() {
